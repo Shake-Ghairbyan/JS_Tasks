@@ -1,0 +1,56 @@
+body {
+    left:25%;
+    background-image: url(http://getwallpapers.com/wallpaper/full/2/c/7/498808.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#root {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    width: 50%;
+    height: 760px;
+    overflow-y: scroll;
+}
+
+form{
+    display:flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+#field{
+    margin-top:30px;
+    background-color: #F7F4C1;
+}
+
+#gladNum{
+    border-radius: 6px;
+    width:35px;
+    font-size: 20px;
+    height:40px;
+    box-sizing: border-box;
+}
+
+#field div{
+    margin: 10px 0;
+    color: #341E1E;
+    font-family:Palatino Linotype;
+    font-size: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    border-radius: 6px;
+    height:40px; 
+    width:60px;
+    box-sizing: border-box;
+}
